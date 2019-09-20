@@ -5,3 +5,5 @@ applications:
   memory: 800m
   path: target/cicd-jenkins-example-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  routes:
+  - route: Test.com
